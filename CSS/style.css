@@ -1,0 +1,311 @@
+/* CSS Document */
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+	margin:0;
+	padding:0;
+}
+
+body {
+	/*width:100%;*/
+	/*height:100vh;*/
+	/*margin:0 auto;*/
+	padding:0;
+	/*position:relative; /* for IE */
+	/*overflow-x: hidden;
+	overflow-y:scroll;
+	font-family:"Museo";*/
+	font-size:1.3em;
+	/*font-weight:100;*/
+	background-color:#535656;
+	color:#F9F9F9;
+	font-family:"Museo Sans";
+}
+
+a:link {/*color: #157AB7;*/ color:#FDF6F6; text-decoration: none;} 
+a:visited {color: #FDF6F6;}
+a:hover {color: #FDF6F6;}
+a:active {color: #F0F0F3;}
+
+@font-face {
+    font-family: "Museo";
+    src:url(fonts/Museo-100.otf);
+}
+
+@font-face {
+    font-family: "Museo Sans";
+    src:url(fonts/MuseoSans-100.otf);
+}
+
+@font-face {
+    font-family: "Museo Slab";
+    src:url(fonts/MuseoSlab-100.otf);
+}
+
+@font-face {
+    font-family: "Samsung Sans";
+    src:url(fonts/SamsungSans-Regular.ttf);
+	font-weight:100;
+}
+
+
+h1 {font-family: "Museo"; font-size:5em; font-weight:600; /*color:#E16F73;*/ margin:30px 0 25px 5%; padding:0; text-align:center; width:90%;}
+
+@media screen and (max-width: 70.5em) { h1 {font-size:4em;} }
+
+h2 {font-family: "Museo Slab"; }
+		
+h3 {font-family: "Museo"; font-size:1.8em; font-weight:400; margin:0; padding:0;}
+
+h4 {width:100%; /*background-color:#BD8788;*/ font-family: "Museo Sans"; font-size:1.1em; font-weight:600; color:#414040; margin:27px 0 5px 0; padding:0; text-align:center; clear:both; float:left;}
+
+
+p {width:100%; text-align:center;}
+
+
+ #wrap {
+	/*width:100%;
+	min-height:100px;*/
+	margin:0;
+	padding:0 0 0 0;
+	overflow-x:hidden;
+	background-color:#964546;
+	color:#F4F4F4;
+
+}
+
+
+ #header { 
+    width:100%;
+	min-height:300px;
+	background-color:#7B273F;
+	overflow:auto;
+	background-image:url(../images/header.jpg);
+	background-size:cover;
+}
+
+
+#header p {font-size:1.1em; color:#FFFFFF; font-weight:400; width:80%; margin-left:10%; margin-top:140px; margin-bottom:200px;}
+
+#logo-nav-wrap {
+	width:96%;
+	margin-left:2%;
+	margin-top:9px;
+	/*background-color:#ECCBB4;*/
+	overflow:auto;
+	}
+	
+
+#logo {
+	width:auto;
+	/*min-height:45px;*/
+	background-color:#111111;
+	float:left;
+	padding:10px;
+	}
+	
+
+#logo-img {background-image:url(../images/minologo.fw.png); background-repeat:no-repeat; width:160px; height:22px;}
+
+@media screen and (max-width: 50.5em) {#logo-img {background-image:url(../images/minologosmall.png); background-size:cover; width:115px; height:16px;} }
+
+#nav-bar {
+	width:50%;
+	/*min-height:50px;*/
+	/*background-color:#CAF3F1;*/
+	float:right;
+	}
+
+
+#nav-bar ul {
+	list-style:none;
+	text-align:right;
+	float:right;
+	background-color:#151515;
+	padding-right:15px;
+	}
+
+
+#nav-bar ul li {float:left; /*background-color:#9E8CBC;*/}
+
+#nav-bar ul li a {color:#FBFBFB; font-size:0.9em; padding:11px 0 11px 20px; /*background-color:#FFFCFC;*/ display:block; height:auto;}
+
+#nav-bar ul li a:hover {color: #F8C6C6;}
+
+@media screen and (max-width: 50.5em) { #nav-bar ul li a { font-size:0.6em; } }
+
+#about { 
+    width:100%;
+	min-height:900px;
+	background-color:#5B6C73;
+	background-image:url(../images/about.jpg);
+	background-size:cover;
+	text-align:center;
+	overflow:hidden;
+}
+
+#about h1 {margin-top:90px; margin-bottom:50px;}
+
+#about p {width:80%; margin-left:10%;}
+#about p a { text-decoration:underline;}
+
+@media screen and (max-width: 50.5em) {#about p { font-size:0.9em;} }
+
+@media screen and (max-width: 40.5em) {#about p {width:90%; margin-left:5%;} }
+
+#about p:last-child {margin-bottom:160px;}
+
+#contacts { 
+    width:100%;
+	/*min-height:500px;*/
+	background-color:#C8DDF4;
+    /*overflow:hidden;*/
+}
+
+
+#contacts-img {
+    width:50%;
+	height:800px;
+	background-color:#25202E;
+	float:left;	
+	/*clear:both;*/
+	background-image:url(../images/contacts.jpg);
+	background-size:cover;
+}
+
+@media screen and (max-width: 50.5em) {#contacts-img {width:100%; height:400px;} }
+
+#contacts-img h1 {margin-top:320px; color:#FDFBFB; font-weight:800;}
+
+@media screen and (max-width: 50.5em) {#contacts-img h1 {margin-top:138px;} }
+
+
+#contacts-info {
+    width:50%;
+	height:800px;
+	background-color:#FCF9F9;
+	overflow:hidden;
+	text-align:center;
+	padding-top:220px;
+}
+
+
+@media screen and (max-width: 50.5em) {#contacts-info {width:100%;} }
+
+#contacts-info span {color:#3E3E3E; font-family: "Museo Slab";}
+
+@media screen and (max-width: 50.5em) {#contacts-info span {font-size:0.9em;}}
+
+#contacts-info a {/*margin-left:20px;*/ /*background-color:#8A4546;*/ /*overflow:auto; display:block; width:65px; float:left;*/ color:#3E3E3E;}
+
+/*#twitter, #instagram {padding-left:20px; /*background-color:#82BCE7;}*/
+
+/*:nth-child(2), #contacts-info a:nth-child(3)*/
+
+
+/*#contacts-info img, #contacts-info a:nth-child(1) {margin-left:0;}*/
+
+/*#facebook-href {background-color:#82BCE7;}*/
+
+#footer { 
+    width:100%;
+	min-height:150px;
+	background-color:#0F0F0F;
+	overflow:auto;
+}
+
+
+#footer p { margin-top:118px; font-size:0.8em;}
+
+#footer p a { text-decoration:underline;}
+
+
+
+/** Animate EHR texts **/
+p, #contacts-info span, h1, h4 {
+-webkit-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+     -moz-animation: reveal 1s ease-in 1 normal forwards;
+opacity: 0;
+       -o-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+          animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+	}
+
+
+
+
+@-webkit-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-moz-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-o-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
