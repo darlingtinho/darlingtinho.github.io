@@ -17,7 +17,6 @@
       <ul>
         <li id="nav-about"><a href="index.php#about">About</a></li>
         <li id="nav-contacts"><a href="index.php#contacts">Contacts</a></li>
-        <li><a href="https://ai.minohealth.com" target="_blank">AI Labs</a></li>
       </ul>
      </div>
    </div>
@@ -34,7 +33,7 @@ Africa. minoHealth and its AI Research lab, <a href="https://ai.minohealth.com" 
 with Artificial Intelligence and ways it can be applied to Healthcare to make it faster, better
 and yet, cheaper.</p><br><br>
     <h3>minoHealth: The multifaceted system</h3>
-<p>minoHealth is a multifaceted system that combines Artificial Intelligence, Biotechnology(currently research), Big Data/Data Analysis and Cloud Computing in order to optimise processes involved in Healthcare and also make them affordable and scalable
+<p>minoHealth is a multifaceted system that combines Artificial Intelligence, Big Data/Data Analytics and Cloud Computing in order to optimise processes involved in Healthcare and also make them affordable and scalable
 compared to the current practices especially in Africa. minoHealth uses Artificial
 Intelligence to make Health Predictions/Forecasts, Diagnoses and Prognoses and organises and stores Patient Health Records in the cloud with
 ‘Hospital portal’ and ‘Central Portal’ for authorised healthcare personnels. All Data
@@ -49,6 +48,62 @@ and visualized health information/stats is a really good source of studying and 
 patterns of outbreaks nationally or continentally, so they can be managed beforeescalation.
 Collected data is used to further train and develop more Artificial Intelligence Healthcare models and systems.</p><br><br>
   </div>
+  <div id="founder-div">
+   <div id="founder-img"><img src="images/glo3vsmall.jpg" /></div>
+   <div id="founder-info">
+       <h3>Our Founder</h3>
+       <p>Darlington Ahiale Akogo is the Founder, C.E.O and Director of Artificial
+    Intelligence at minoHealth. He's also an Advisory Board Member and Ambassador
+    at <a href="http://aiexpoafrica.com" target="_blank">AI Expo Africa</a>, the largest business focused AI community in Africa. Darlington Ahiale Akogo also heads
+    minoHealth AI Labs where they research and apply Artificial
+    Intelligence to fields like Biotechnology, Neuroscience, Optometry,
+    Epidemiology, Dietetics/Nutrition and Agriculture. And with Gudra AI
+    Studio, they explore Artificial Intelligence applied to general domains
+    like Energy, Art, Education and Linguistics.<br><br> 
+    Darlington Ahiale Akogo is also an Artificial Intelligence advocate, communicator and mentor. He
+    believes Artificial Intelligence can solve a lot of problems plaguing Africa and being proactive is
+    necessary in the Age of Artificial Intelligence and the 4th Industrial Revolution. So Darlington
+    advocates, teaches and communicates Artificial Intelligence through seminars, lectures, interviews,
+    writings and mentorships. He was a research presenter at NeurIPS 2018, the largest Conference on
+    Artificial Intelligence in the World. And he was one of the speakers at the ​AI Expo Africa 2018 in
+    Cape Town, South Africa and Next Einstein Forum’s ​<a href="https://www.myjoyonline.com/news/2018/september-11th/maiden-africa-science-week-ghana-celebration-set-for-sept-25.php" target="_blank">Africa Science Week</a>​. He was also a participant in
+    Massachusett Institute of Technology(MIT)'s Global Community <a href="https://www.biosummit.org/darlington-akogo-2018/" target="_blank">​BioSummit</a> 2018. His research paper
+    ‘ScaffoldNet: Detecting and Classifying Biomedical Polymer-Based Scaffolds via a Convolutional
+    Neural Network’ has been accepted by the ​<a href="http://saiconference.com/FICC" target="_blank">Future of Information and Communications Conference​</a>,
+    which is sponsored by IEEE. Alongside great minds including Yoshua Bengio, who's celebrated as one
+    of the Fathers of Deep Learning, Darlington is featured in and wrote for the book, <a href="https://www.amazon.com/dp/B07H42MYMV" target="_blank">"​Artificial
+    Intelligence Simplified​</a>: 99 Use Cases And Expert Thoughts For Starters" which was put together by
+    Data Science Nigeria. He also wrote reports and essays for ​<a href="https://issuu.com/aimediasynapse/docs/synapse_-_issue_1-opt" target="_blank">Synapse Magazine</a> - ‘The Voice of African
+    Artificial Intelligence & Data Science’ by AI Media.</p>
+    </div>
+  </div>
+  <div class="separator"><h3>Partners</h3></div>
+  <div id="partners-div">
+    <a href="https://www.nchs.org.gh/" target="_blank"><img src="images/logo.png" id="nchs" alt="National Catholic Health Service"></a>
+  </div>
+  <div class="separator"><h3>Conference Features</h3></div>
+  <div id="conference-div">
+    <a href="http://worldsummit.ai/" target="_blank"><img src="images/WSAI18_2018_logo_orange.png" id="world-summit-ai" alt="World Summit AI"></a>
+    <a href="http://aiexpoafrica.com/" target="_blank"><img src="images/aiexpo_logo_header-1.png" id="ai-expo-africa" alt="AI Expo Africa"></a>
+    <a href="http://saiconference.com/FICC" target="_blank"><img src="images/FICC 2019.png" id="ficc-2019" alt="FICC 2019"></a>
+    <a href="https://www.biosummit.org/darlington-akogo-2018/" target="_blank"><img src="images/logo+for+website+zoomed+indark.fw.png" id="mit-biosummit" alt="MIT BioSummit"></a>
+    <a href="https://www.myjoyonline.com/news/2018/september-11th/maiden-africa-science-week-ghana-celebration-set-for-sept-25.php" target="_blank"><img src="images/Africa-Science-Week.jpg" id="africa-science-week" alt="Africa Science Week"></a>
+  </div>
+  <div class="separator"><h3>Media Features</h3></div>
+  <div id="media-div">
+    <a href="https://www.youtube.com/watch?v=GVgROTJ9plY" target="_blank"><img src="images/sitelogo_white_retina.png" id="ai-media" class="logosmall" alt="AI Media"></a>
+    <a href="https://www.appsafrica.com/5-african-innovations-disrupting-traditional-industries/" target="_blank"><img src="images/appsafrica_africatechinsight-1.png" id="apps-africa" alt="Apps Africa"></a>
+    <a href="http://howafrica.com/ghanaian-develops-an-ai-healthcare-system-that-accurately-diagnoses-medical-conditions/" target="_blank"><img src="images/howafrica.png" id="how-africa" class="logosmall" alt="HOW AFRICA"></a>
+    <a href="https://www.risingafrica.org/success-stories/health_medicine/ghanaian-develops-artificial-intelligence-healthcare-system/" target="_blank"><img src="images/Rising-Africa-logo.png" id="rising-africa" class="logosmall" alt="Rising Africa"></a>
+    <img src="images/photo-e1478003306114.jpg" id="tv3" class="logosmall" alt="TV3">
+    <a href="http://citifmonline.com/2017/08/12/ghanaian-develops-artificial-intelligence-healthcare-system/" target="_blank"><img src="images/o6jv40yml2_citifmonline.jpg" id="citi-fm-online" class="logosmall" alt="Citi FM"></a>
+    <a href="https://www.youtube.com/watch?v=71nuvVY1o1c&t=11s" target="_blank"><img src="images/Starr-FM-103.5.jpg" id="starr-fm" class="logosmall" alt="Starr FM"></a>
+    <a href="http://www.peacefmonline.com/pages/local/news/201708/323604.php" target="_blank"><img src="images/logo200.jpg" id="peace-fm" class="logosmall" alt="Peace FM"></a>
+    <a href="https://www.ghanaweb.com/GhanaHomePage/NewsArchive/Ghanaian-develops-Artificial-Intelligence-healthcare-system-569095" target="_blank"><img src="images/51wDPt0ErTL.png" id="ghana-web" class="logosmall" alt="Ghana Web"></a>
+    <a href="https://omgvoice.com/technology/ghanaian-medical-diagnosis-system" target="_blank"><img src="images/18485350_1473868802665266_4649471773295548178_n.png" id="omg-voice" class="logosmall" alt="OMG Voice"></a>
+    
+  </div>
+  <div class="separator"></div>
   <div id="contacts">
    <div id="contacts-img"><h1>Contacts</h1></div>
    <div id="contacts-info">
@@ -66,7 +121,7 @@ Collected data is used to further train and develop more Artificial Intelligence
    </div>
   </div>
   <div id="footer">
-  <p>minoHeath © 2018. Designed by <a href="https://gudra-studio.com" target="_blank">Gudra</a></p>
+  <p>minoHeath © 2019. Designed by <a href="https://gudra-studio.com" target="_blank">Gudra</a></p>
   </div>
  </div>
 </body>
